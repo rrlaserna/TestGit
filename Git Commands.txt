@@ -1,0 +1,7 @@
+git config --global user.name "rrlaserna"
+git config --global user.email rrlaserna@westpac-sfi.com
+git clone https://github.com/rrlaserna/TestGit.git
+git add test.txt
+git status
+git commit -m "my first commit" test.txt
+git push -u origin master
